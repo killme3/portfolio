@@ -1,0 +1,130 @@
+body {
+	background-color:#222;
+	font-family: 'Quicksand',sans-serif;
+	font-weight:10px;
+}
+.menu a{
+	color:#FFF;
+	text-align:center;
+	display: block;
+	text-decoration: none;
+	font-size: 30px;
+	margin-bottom: 50px;
+	font-weight: 100px !important;
+}
+
+.menu a:hover{
+	color: grey;
+}
+.menu{
+	margin-top:10%;
+}
+.animsition h1{
+	text-align:center;
+	margin-top:10%;
+	color:#FFF;
+	font-size: 70px;
+    font-weight: lighter;
+    /*line-height: 70px;*/
+}
+
+.animsition h2{
+	text-align:center;
+	margin-top: -5%;
+	color:#FFF;
+	font-size: 50px;
+    font-weight: lighter;
+    /*line-height: 70px;*/
+}
+
+.animsition h3{
+	text-align:center;
+	color:white;
+	margin-top: -3%;
+	font-size: 20px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.button{
+	color: white;
+	margin-left: 2%;
+	margin-top: 2%;
+	cursor: pointer;
+}
+
+
+a{
+	position: relative;
+}
+a:after {
+  	content: '';
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	width: 0%;
+  	border-bottom: 2px solid white;
+  	transition: 0.4s;
+}
+a:hover:after {
+  	width: 100%;
+}
+
+footer > p{
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.bgHome{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.menutop{
+	color: white;
+	text-decoration: none;
+	margin-right: 13%;
+	margin-top: -15px;
+	float: right;
+	display: none;
+}
+.desc{
+	margin-top:-3%;
+}
+.bingkai{
+	margin-left: 35%;
+	width: 30%;
+	height: 300px;
+}
+
+.contactme{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#form{
+	margin-left: 35%;
+
+}
+
+input {
+    width:45%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width:45%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover{
+	background-color: #337ab7;
+	cursor: pointer;
+	border: none;
+	color: white;
+}
